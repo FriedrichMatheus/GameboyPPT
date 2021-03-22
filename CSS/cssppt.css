@@ -1,0 +1,167 @@
+
+@font-face {
+    
+     font-family: "Gill Sans";
+    src: url(../Fontes/gill-sans.otf);
+}
+@font-face{
+	 font-family: Pretendo;
+    src: url(../Fontes/Pretendo.ttf);
+    
+}
+@font-face{
+	font-family: "Press Start 2P";
+    src: url(../Fontes/PressStart.ttf);
+}
+ #all {
+ 	margin: 30px auto;
+ 	height: 840px;
+ 	width: 560px;
+ 	border: 2px solid black;
+ 	border-radius: 12px 12px 160px 12px;
+ 	box-shadow: 0px 0px 15px 5px;
+ 	background-color: rgb(250, 248, 245);s
+
+ }
+ #margemt {
+ 	background-color:rgb(145, 145, 145);
+ 	height:370px;
+ 	width:470px;
+ 	margin: 60px auto 0 ;
+ 	border: 3px black solid;
+ 	border-radius: 0 0 80px 0;
+ 	padding-bottom: 15px;
+ }
+ #tela{
+ 	margin: 20px auto;
+ 	box-shadow: inset 0px 0px 10px 3px; 
+ 	height: 320px ;
+ 	width: 320px ;
+ 	border: 5px solid black;
+ 	background-color:rgb(158, 179, 4);
+ 	text-align: center;
+ 	font-family: 'Press Start 2P';
+ 	color: rgb(54, 61, 1);
+ }
+div#button button#tesourax{
+	position: relative;
+	border-radius: 15px;
+	height: 50px;
+	width: 190px;
+	left: 300px;
+	transform: rotate(-20deg);
+	top: 20px;
+	border-color: rgb(161, 0, 0);
+	background: linear-gradient(to bottom, rgb(224, 44, 20), rgb(128, 0, 0));
+	color: rgb(255, 255, 255);
+	text-shadow: 2px 1px 4px black; 
+	
+
+
+}
+h6#nintendo{
+	font-family: Pretendo;
+	font-weight: none;
+	display: inline;
+	margin-left: 45px;
+	font-size: 1.1em;
+	letter-spacing:1px;
+
+}
+h6#gameboy{
+	font-family: 'Gill Sans', sans-serif;
+	font-weight: none;
+	display: inline;
+	
+	font-size: 1.5em;
+	letter-spacing:1px;
+}
+ h6{
+
+	font-weight: none;
+	display: inline;
+	font-size: 1.7em;
+	position: relative;
+	top:10px;
+}
+div#button button{
+	 
+	
+	font-family: 'Press Start 2P';
+	font-size: 15px;
+	font-stretch: extra-condensed;
+	border: none;
+	
+
+}
+
+div#sombrape{
+	background: linear-gradient(to top, rgb(255, 255, 255), rgb(240, 240, 240), rgb(230, 230, 230));
+	transform: rotate(-20deg);
+	height: 70px;
+	width: 228px;
+	border-radius: 25px;
+	position: relative;
+	left: 310px;
+	top: 50px;
+}
+
+#pedray{
+	position: relative;
+	height: 50px;
+	width: 190px;
+	border-radius: 15px;
+	left: 19px;
+	top: 10px;
+	border-color: rgb(161, 0, 0);
+	background: linear-gradient(to top, rgb(145, 0, 0), rgb(212, 30, 30));
+	color: rgb(255, 255, 255);
+	text-shadow: 2px 1px 4px black; 
+	
+}
+.botao:focus{
+	outline: none;
+
+}
+body{
+	background: url('../Imagens/pokemon.png');
+}
+div#button button#pedray:active {
+    background: none;
+    background: linear-gradient(to top, rgb(212, 30, 30), rgb(145, 0, 0));
+    outline: none;
+}
+div#button button#tesourax:active {
+    background: linear-gradient(to top, rgb(224, 44, 20), rgb(128, 0, 0));
+}
+div#button button#papelz:active {
+    background: linear-gradient(to top, rgb(224, 44, 20), rgb(128, 0, 0));
+}
+
+
+div#button button#papelz{
+	background-color: black;
+	border-radius: none;
+	border: solid black 3px;
+	height: 41px;
+	width: 131px;
+	color: white;
+	z-index: 1;
+	position: relative;
+	left: 45px;
+	bottom: 164px;
+	background-image: url("../Imagens/sombradirecional.png");
+	font-stretch: extra-condensed;
+	font-size: 12px;
+}
+div#cruz{
+	height: 131px;
+	width: 41px;
+	background-color: black;
+	border: solid black 3px;
+	position: relative;
+	z-index: 0;
+	left: 88px;
+	bottom: 75px;
+	background-image: url("../Imagens/sombracruz.png");
+}
